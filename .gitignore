@@ -1,0 +1,22 @@
+# --- .gitignore ---
+
+# Environments
+venv/
+.venv/
+env/
+
+# Keys and Secrets (CRITICAL)
+.env
+*.pem
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
